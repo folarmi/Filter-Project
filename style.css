@@ -1,0 +1,144 @@
+body{
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+.nav{
+    background-color: white;
+}
+
+#logo{
+    margin-right: 10rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+/* Harmburger Styling */
+
+.harmburger {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ef7f9a;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#nav-bar{
+    display: none;
+}
+
+#nav-bar a{
+    color: #ef7f9a;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.banner{
+    background: url('./img/headerBcg.jpeg') no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    padding-left: 3rem;
+    overflow: auto;
+}
+
+.banner h2{
+    color: white;
+}
+
+#fola{
+    color: #ef7f9a;
+    margin-left: 2rem;
+}
+
+
+.explore{
+    text-transform: uppercase;
+    color: black;
+    padding: 0.5rem;
+    border: 3px solid black;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    border-radius: 0.3rem;
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+.explore:hover{
+    color:#ef7f9a;
+    background-color: black;
+}
+
+.about-us{
+    margin: 3rem;
+}
+
+.about-us p{
+    color:#6c757d
+}
+
+#us{
+    color:#ef7f9a;
+    font-size: 4.5rem;
+}
+
+.square-image{
+    border: 10px solid #f9e494;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.square-image img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 0;
+}
+
+@media only screen and (min-width:480px) and (max-width:768px){
+    /* mini-tablet and phones with large screen */
+    body{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width:769px) and (max-width:960px){
+    /* Large Tablet */
+    body{
+        background-color: red;
+    }
+}
+
+
+@media only screen and (min-width:961px){
+    /* large screen */
+    body{
+        background-color: green;
+    }
+}
