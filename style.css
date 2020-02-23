@@ -8,7 +8,7 @@ body{
 }
 
 #logo{
-    margin-right: 10rem;
+    margin-right: 11rem;
     padding-left: 0.5rem;
     padding-top: 1rem;
 }
@@ -98,12 +98,13 @@ body{
 }
 
 .about-us p{
-    color:#6c757d
+    color:#6c757d;
 }
 
 #us{
     color:#ef7f9a;
     font-size: 4.5rem;
+    margin-left: 2rem;
 }
 
 .square-image{
@@ -119,6 +120,18 @@ body{
     position: absolute;
     right: 0;
 }
+
+.store{
+    margin: 1rem;
+}
+
+#store{
+    color:#ef7f9a;
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+
 
 @media only screen and (min-width:480px) and (max-width:768px){
     /* mini-tablet and phones with large screen */
