@@ -79,7 +79,7 @@ body{
     text-transform: uppercase;
     color: black;
     padding: 0.5rem;
-    border: 3px solid black;
+    border: 2px solid black;
     margin-bottom: 4rem;
     margin-left: 2rem;
     border-radius: 0.3rem;
@@ -131,7 +131,43 @@ body{
     margin-left: 1.5rem;
 }
 
+.btn-2{
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem; 
+    border-radius: 0.3rem;
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+    background-color: white;
+}
 
+.btn-2:hover{
+    color:#ef7f9a;
+    background-color: black;
+}
+
+.picture-card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 grey;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.picture-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+
+.picture-card img{
+    border-radius: 5px;
+}
+
+.picture-card p{
+    height: 2rem;
+    padding-bottom: 2rem;
+    font-weight: normal;
+}
 
 @media only screen and (min-width:480px) and (max-width:768px){
     /* mini-tablet and phones with large screen */
