@@ -127,8 +127,8 @@ body{
 
 #store{
     color:#ef7f9a;
-    font-size: 2.5rem;
-    margin-left: 1.5rem;
+    font-size: 4.5rem;
+    margin-left: 1.3rem;
 }
 
 .btn-2{
@@ -169,6 +169,21 @@ body{
     font-weight: normal;
 }
 
+.amt{
+    padding-left: 2rem;
+}
+
+#text-box{
+    width: 90%;
+    padding: 16px 20px;
+    border: none;
+    background-image: none;
+    outline: 0;
+    border-radius: 4px;
+    margin: 8px 0;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2) inset, -1px -1px 6px rgba(0,0,0,0.2) inset;
+}
+
 @media only screen and (min-width:480px) and (max-width:768px){
     /* mini-tablet and phones with large screen */
     body{
@@ -187,7 +202,71 @@ body{
 
 @media only screen and (min-width:961px){
     /* large screen */
-    body{
-        background-color: green;
+    .bar1, .bar2, .bar3{
+        display: none;
+    }
+
+    .nav-bar{
+        display: inline-block;
+    }
+
+    .banner{
+        background: url(./img/headerBcg.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .about-us {
+        width: 300px;
+        float: left;
+        height: 300px;
+    }
+
+   .square-image {
+        width: 300px;
+        float: left;
+        height: 300px;
+        margin-top: 10rem;
+        margin-left: 40rem;
+    }
+
+    #clear {
+        clear: both;
+    }
+
+    #our, .img-gallery{
+        text-align: center;
+    }
+
+    .btn-2{
+       display: inline;
+       margin-right: 4rem;
+       text-align: center;
+    }
+
+    .btns{
+        padding-right: 4rem;
+    }
+
+    #text-box{
+        width: 500px;
+       margin-left: 20rem;
+    }
+
+    .img-gallery{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .picture-card{
+        flex: 0 0 20%;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+    }
+
+    .text-box{
+        width: 50%;
     }
 }
