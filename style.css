@@ -45,7 +45,7 @@ body{
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
-#nav-bar{
+#nav-bar, .nav-bar-extra{
     display: none;
 }
 
@@ -131,6 +131,7 @@ body{
     margin-left: 1.3rem;
 }
 
+
 .btn-2{
     color: black;
     padding: 0.5rem;
@@ -142,6 +143,8 @@ body{
     font-size: 1.5rem;
     background-color: white;
 }
+
+.store
 
 .btn-2:hover{
     color:#ef7f9a;
@@ -206,8 +209,8 @@ body{
         display: none;
     }
 
-    .nav-bar{
-        display: inline-block;
+    #nav-bar, .nav-bar-extra{
+        display: flex;
     }
 
     .banner{
@@ -216,6 +219,10 @@ body{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+
+    .nav-bar-extra{
+        display: inline;
     }
 
     .about-us {
